@@ -42,14 +42,14 @@ int quad_roots(double * A, double * roots)
                 // solutions are complex conjugate roots: roots[0] is real, roots[1] is i
                 /* not sure here... */
                 roots[0] = ((-(A[1])) + (sqrt((A[1]*A[1]) - (4*(A[2]*A[0]))))) / (2*(A[2]));
-                roots[0] = ((-(A[1])) - (sqrt((A[1]*A[1]) - (4*(A[2]*A[0]))))) / (2*(A[2]));
+                roots[1] = ((-(A[1])) - (sqrt((A[1]*A[1]) - (4*(A[2]*A[0]))))) / (2*(A[2]));
                 return 1;
             }
             else
             {
                 // so this means (A[1]*A[1]) == (4*(A[2]*A[0])), so the roots[0] and [1] are equal
                 roots[0] = ((-(A[1])) + (sqrt((A[1]*A[1]) - (4*(A[2]*A[0]))))) / (2*(A[2]));
-                roots[0] = ((-(A[1])) - (sqrt((A[1]*A[1]) - (4*(A[2]*A[0]))))) / (2*(A[2]));
+                roots[1] = ((-(A[1])) - (sqrt((A[1]*A[1]) - (4*(A[2]*A[0]))))) / (2*(A[2]));
                 return 2;
             }
         }
