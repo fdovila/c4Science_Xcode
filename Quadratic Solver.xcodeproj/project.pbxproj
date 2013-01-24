@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13E3D5C816B1985F009A48C7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 13E3D5C716B1985F009A48C7 /* main.c */; };
 		13E3D5CA16B19860009A48C7 /* Quadratic_Solver.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E3D5C916B19860009A48C7 /* Quadratic_Solver.1 */; };
+		13E3D5D116B198A6009A48C7 /* quadSol.c in Sources */ = {isa = PBXBuildFile; fileRef = 13E3D5D016B198A6009A48C7 /* quadSol.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		13E3D5C316B1985F009A48C7 /* Quadratic Solver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Quadratic Solver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E3D5C716B1985F009A48C7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		13E3D5C916B19860009A48C7 /* Quadratic_Solver.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Quadratic_Solver.1; sourceTree = "<group>"; };
+		13E3D5D016B198A6009A48C7 /* quadSol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quadSol.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				13E3D5C716B1985F009A48C7 /* main.c */,
+				13E3D5D016B198A6009A48C7 /* quadSol.c */,
 				13E3D5C916B19860009A48C7 /* Quadratic_Solver.1 */,
 			);
 			path = "Quadratic Solver";
@@ -118,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E3D5C816B1985F009A48C7 /* main.c in Sources */,
+				13E3D5D116B198A6009A48C7 /* quadSol.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
